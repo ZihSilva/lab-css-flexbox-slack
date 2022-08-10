@@ -1,0 +1,260 @@
+/*
+background-grey: #F4F3F4;
+button-purple: #192592
+main-titles dark-grey: #2C303F;
+paragraph grey: #5b5e6d;
+nav grey: #5b5e6d;
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+@media only screen and (max-width: 1200px) {
+  nav ul {
+    visibility: hidden;
+  }
+}
+
+body {
+  background-color: #f4f3f4;
+  margin: 0px;
+  width: 100vw;
+  font-family: Roboto, sans-serif;
+  color: #5b5e6d;
+}
+
+h1 {
+  font-size: 45px;
+  width: 80vw;
+  /* margin-bottom: 20px; */
+  color: #2c303f;
+}
+
+p {
+  font-family: "Times New Roman", sans-serif;
+  color: #5b5e6d;
+  line-height: 1.5em;
+  font-size: 20px;
+}
+
+.text {
+  width: 80vw;
+  font-family: Roboto, sans-serif;
+}
+@media (max-width: 767px) {
+nav {
+  height: 10vh;
+  width: 100vw;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  background-color: #f4f3f4;
+}
+
+.fa {
+  font-size: 2rem;
+  color: #5b5e6d;
+  margin: 0 10vw 0 10vw;
+}
+
+nav img {
+  height: 70px;
+  margin: 0 10vw 0 10vw;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+header {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10vh;
+}
+
+header img {
+  width: 80vw;
+}
+
+.email {
+  background-color: #f4f3f4;
+  border: 1px solid #5b5e6d;
+  width: 80vw;
+  height: 60px;
+  border-radius: 5px;
+  margin: 25px 0 25px 0;
+  text-align: center;
+  padding-left: 20px;
+  font-size: 15px;
+}
+
+.btn-started {
+  background-color: #192592;
+  color: white;
+  border: none;
+  width: 80vw;
+  height: 60px;
+  border-radius: 5px;
+  font-size: 15px;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+.btn-discover {
+  background-color: white;
+  color: #192592;
+  border: 1px solid #192592;
+  width: 80vw;
+  height: 60px;
+  border-radius: 5px;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 35px;
+  font-family: "Times New Roman", sans-serif;
+  width: 80vw;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #2c303f;
+}
+
+.main {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.first {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: lightgray;
+}
+
+.first p {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.first div img {
+  width: 250px;
+  margin: 90px;
+  object-fit: contain;
+  border-bottom: 1px solid;
+} 
+
+.first div {
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+h3 {
+  font-size: 25px;
+  font-family: "Times New Roman", sans-serif;
+  width: 80vw;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  text-align: center;
+  color: #2c303f;
+}
+
+.second {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#already-end {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+hr {
+  margin-top: 60px;
+}
+
+.f-first {
+  display: flex;
+  flex-direction: center;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+footer {
+  padding-bottom: 30px;
+}
+
+footer img {
+  display: flex;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li {
+  margin: 15px;
+}
+
+.bolder-footer {
+  font-weight: bold;
+}
+
+.f-second {
+   background-color: lightgray;
+   padding-right: 30px;
+   margin-bottom: 0px;
+   height: 200px;
+}
+
+.f-second > ul {
+  display: flex;
+  justify-content: center;
+}
+
+ .f-second div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+} 
+
+.f-second div img {
+    width: 20px;
+    margin-right: 10px;
+    justify-content: space-between;
+  }
+
+.f-second span {
+  margin-right: 10px;
+}
+
+.f-second div div {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}  
+
+.languages {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 15px;
+}
+
+.social{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  gap: 10px;
+} 
+}
